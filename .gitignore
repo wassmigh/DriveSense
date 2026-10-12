@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Model weights (Ultralytics auto-downloads yolo11n.pt if not present)
+*.pt
+*.onnx
+*.engine
+
+# Environment variables & secrets
+.env
+.env.*
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
